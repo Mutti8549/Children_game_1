@@ -1,0 +1,92 @@
+.game1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto; /* Adjust the height of the container as needed */
+    margin-left: 12cm;
+    margin-bottom: 20px;
+}
+
+.game2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto; /* Adjust the height of the container as needed */
+    margin-left: 12cm;
+    margin-bottom: 20px;
+}
+
+.game3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto; /* Adjust the height of the container as needed */
+    margin-left: 12cm;
+    margin-bottom: 20px;
+}
+
+.image-button1 {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url('Mathgame.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.image-button2 {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url('GW.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.image-button3 {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url('FG.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.game-name {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.score {
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
